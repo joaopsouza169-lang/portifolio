@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | João Paulo Zordan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header-main">
+    <h1 class="logo">Portfólio</h1>
+    <nav class="menu">
+        <ul class="links">
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#habilidade">Habilidades</a></li>
+            <li><a href="#formacao">Formações</a></li>
+            <li><a href="#experiencia">Experiência</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li class="has-submenu">
+                <a href="#">Meus Projetos</a>
+                <ul class="submenu">
+                    <li><a href="#guri">Site dos Guris</a></li>
+                    <li><a href="#academia">Diário de Treinos</a></li>
+                    <li><a href="#games">Site Games Games</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="container" id="sobre">
+        <div class="content">
+            <h1>Sobre Mim</h1>
+            <p>Me chamo João Paulo Zordan e tenho 17 anos atualmente. Estou a 7 meses de finalizar o meu curso técnico de Análise e Desenvolvimento de Sistemas, focado em criar soluções eficientes e modernas.</p>
+        </div>
+        <div class="profile-img">
+            <img src="images/joao.png" alt="Foto de João Paulo">
+        </div>
+    </section>
+
+    <section class="container" id="habilidade">
+        <h1>Habilidades</h1>
+        <div class="skill-grid">
+            <span>HTML5 & CSS3</span>
+            <span>Lógica de Programação</span>
+            <span>JavaScript</span>
+               <span>Banco de Dados</span>
+        </div>
+    </section>
+
+    <section class="container">
+        <h1>Meus Projetos</h1>
+
+        <div class="projeto" id="guri">
+            <h3>Site dos Guris</h3>
+            <p>O site dos guri foi um projeto realizado utilizando python/flask com fim de registrar, editar e excluir amigos, tudo para colocar em prática o /admin/.</p>
+            <div class="fotos-placeholder">
+                <img src="images/guri-home.png" alt="Home Site dos Guris" class="img-projeto">
+                <img src="images/guri.png" alt="Admin Site dos Guris" class="img-projeto">
+            </div>
+        </div>
+
+        <div class="projeto" id="academia">
+            <h3>Diário de Academia</h3>
+            <p>O diário de academia foi uma aplicação feita com flask puro com intuito de registrar exercícios, séries e repetições dos mesmos.</p>
+            <div class="fotos-placeholder">
+                <img src="images/academia.png" alt="Template Diário de Academia" class="img-projeto">
+            </div>
+        </div>
+
+        <div class="projeto-ultimo" id="games">
+            <h3>Site Games Games</h3>
+            <p>O Projeto do Site games games foi a recriação do mesmo utilizando HTML5 em sua maioria.</p>
+            <div class="fotos-placeholder">
+                <img src="images/games.png" alt="Site Games 1" class="img-projeto">
+                <img src="images/games-games.png" alt="Site Games 2" class="img-projeto">
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="formacao">
+        <h1>Formações</h1>
+        <p><strong>Técnico em Análise e Desenvolvimento de Sistemas</strong><br>
+            Conclusão prevista para daqui a 7 meses.</p>
+    </section>
+
+    <section class="container" id="experiencia">
+        <h1>Experiência Profissional</h1>
+        <div class="exp-item">
+            <h3>Desenvolvedor Junior (Estágio)</h3>
+            <p>Atuação no desenvolvimento de interfaces responsivas e manutenção de sistemas web utilizando as melhores práticas de mercado.</p>
+        </div>
+    </section>
+
+    <section class="container" id="contato">
+        <h1>Contato</h1>
+        <form class="contato-form">
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="email" placeholder="Seu E-mail" required>
+            <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 João Paulo Zordan - Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
